@@ -35,7 +35,7 @@ portfolio-root/
 
 Place your resume PDF in the `docs/` folder:
 ```
-docs/AkashSingh_Resume.pdf
+Resume.pdf
 ```
 
 ### 2. Add Portfolio Images
