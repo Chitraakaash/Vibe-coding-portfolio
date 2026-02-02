@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selected works by Akash Singh – Character design, environmental illustration, and digital portraiture.">
+    <title>Work | Akash Singh</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">Akash Singh</a>
+            <nav>
+                <a href="work.html" class="active">Work</a>
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Connect</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container work-container">
+        
+        <!-- Hero -->
+        <div class="work-hero">
+            <h1>Selected Works</h1>
+            <p class="work-subtitle">Visual narratives through character, environment, and portraiture.</p>
+        </div>
+
+        <!-- Filter -->
+        <nav class="category-filter">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="environments">Environments</button>
+            <button class="filter-btn" data-category="portraits">Portraits</button>
+            <button class="filter-btn" data-category="characters">Characters</button>
+        </nav>
+
+        <!-- Unified Grid -->
+        <div class="work-grid" id="workGrid">
+            
+            <!-- Environments -->
+            <article class="work-card" data-category="environments" onclick="openLightbox('assets/images/Background_1.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Background_1.webp" alt="Environmental concept with atmospheric depth" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Environment</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="environments" onclick="openLightbox('assets/images/Background_2.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Background_2.webp" alt="Landscape illustration with spatial composition" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Environment</span>
+                </div>
+            </article>
+
+            <!-- Portraits -->
+            <article class="work-card" data-category="portraits" onclick="openLightbox('assets/images/Portrait_1.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Portrait_1.webp" alt="Digital portrait with refined details" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Portrait</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="portraits" onclick="openLightbox('assets/images/Portrait_2.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Portrait_2.webp" alt="Portrait study exploring expression" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Portrait</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="portraits" onclick="openLightbox('assets/images/Portrait_3.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Portrait_3.webp" alt="Stylized portrait with narrative focus" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Portrait</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="portraits" onclick="openLightbox('assets/images/Portrait_4.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Portrait_4.webp" alt="Portrait with attention to lighting" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Portrait</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="portraits" onclick="openLightbox('assets/images/Portrait_5.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Portrait_5.webp" alt="Digital portrait with stylized interpretation" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Portrait</span>
+                </div>
+            </article>
+
+            <!-- Characters -->
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Design_1.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Design_1.webp" alt="Character concept with narrative context" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Design_2.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Design_2.webp" alt="Character illustration exploring personality" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Illustration_1.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Illustration_1.webp" alt="Character design with detailed rendering" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Illustration_2.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Illustration_2.webp" alt="Character showcasing visual storytelling" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Illustration_3.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Illustration_3.webp" alt="Character study with compositional focus" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Illustration_4.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Illustration_4.webp" alt="Character exploring form and silhouette" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Illustration_5.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Illustration_5.webp" alt="Character with stylized approach" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="characters" onclick="openLightbox('assets/images/Character_Illustration_6.webp')">
+                <div class="card-image">
+                    <img src="assets/images/Character_Illustration_6.webp" alt="Character concept with narrative elements" loading="lazy">
+                </div>
+                <div class="card-overlay">
+                    <span class="card-tag">Character</span>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            &copy; <span id="year"></span> Akash Singh
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
